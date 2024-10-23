@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Asegúrate de tener esto en tu configuración de Tailwind */
+@layer components {
+    .group-hover\:block:hover > .hidden {
+      display: block;
+    }
+  }
+  
